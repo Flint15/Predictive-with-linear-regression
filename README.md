@@ -41,7 +41,7 @@ x = np.random.rand(num_points) * 10 #independent variable (input values)
 y = 2*X + 3 + np.random.randn(num_points) #dependent variable (output values)
 ```
 
-Because we make predict with imaginary data, we should create them, but they must be interlinked with each other, they must based on a linear relationship, on this - 2*X + 3, for example
+We make predict with imaginary data, and so we should create them, but they must be interlinked with each other, they must based on a linear relationship, on this - 2*X + 3, for example
 
 ```python
 x = x.reshape(-1, 1)
